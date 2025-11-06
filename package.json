@@ -9,13 +9,29 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/netinfo": "^11.4.1",
+    "@tanstack/react-query": "^5.90.7",
+    "@types/react-native-event-source": "^1.1.2",
+    "event-source-polyfill": "^1.0.31",
     "expo": "~54.0.22",
     "expo-status-bar": "~3.0.8",
+    "nativewind": "^4.2.1",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-collapsible": "^1.6.2",
+    "react-native-event-source": "^1.1.0",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-markdown-display": "^7.0.2",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-sse": "^1.2.1",
+    "react-native-worklets": "0.5.1"
   },
   "devDependencies": {
+    "@types/event-source-polyfill": "^1.0.5",
     "@types/react": "~19.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.17",
     "typescript": "~5.9.2"
   },
   "private": true
